@@ -1,0 +1,2 @@
+# LJ
+learning java
