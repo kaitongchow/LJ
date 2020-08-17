@@ -37,6 +37,5 @@ public class array_test {
         }
         //每一维又可以做一个引用指向数组
         a[0] = new int[5];
-
     }
 }
