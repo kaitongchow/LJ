@@ -26,5 +26,17 @@ public class array_test {
         for(int i : array1){
             System.out.println(i);
         }
+
+        //多为数组
+        int[][] q = new int[3][2];
+
+        //相当于a是长度为3的一维数组
+        int[][] a = new int[3][];
+        for (int i = 0; i < a.length; i++){
+            System.out.println(i);
+        }
+        //每一维又可以做一个引用指向数组
+        a[0] = new int[5];
+
     }
 }
