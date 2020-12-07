@@ -11,6 +11,7 @@ public class for_label {
                 if (i == 6){
                     System.out.println("i == 6");
                     break outer;
+
                 }else if(j == 6){
                     System.out.println("j == 6");
                     continue outer;
@@ -20,3 +21,4 @@ public class for_label {
         System.out.println("循环跳出");
     }
 }
+
